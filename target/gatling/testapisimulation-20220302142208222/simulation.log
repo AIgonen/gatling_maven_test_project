@@ -1,0 +1,5 @@
+RUN	simulations.TestAPISimulation	testapisimulation	1646230928222	run test	3.7.4
+USER	get user	START	1646230929325
+REQUEST		get user request	1646230929357	1646230929569	OK	 
+REQUEST		get user request Redirect 1	1646230929584	1646230929784	OK	 
+USER	get user	END	1646230929805
