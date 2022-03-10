@@ -1,0 +1,10 @@
+RUN	simulations.LoopRequest	looprequest	1646837224436	loop request run	3.7.4
+USER	user request scenario	START	1646837225361
+REQUEST		get all users request	1646837225396	1646837225564	OK	 
+REQUEST		get all users request Redirect 1	1646837225584	1646837225752	OK	 
+REQUEST		get single user request	1646837227781	1646837227848	OK	 
+REQUEST		get single user request Redirect 1	1646837227849	1646837227896	OK	 
+REQUEST		add a user request	1646837229905	1646837229952	OK	 
+REQUEST		add a user request Redirect 1	1646837229952	1646837230008	KO	status.find.is(201), but actually found 200
+REQUEST		add a user request Redirect 1	1646837230024	1646837230216	OK	 
+USER	user request scenario	END	1646837230219

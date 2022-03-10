@@ -1,0 +1,10 @@
+RUN	simulations.LoopRequest	looprequest	1646837340426	test	3.7.4
+USER	user request scenario	START	1646837341234
+REQUEST		get all users request	1646837341263	1646837341377	OK	 
+REQUEST		get all users request Redirect 1	1646837341392	1646837341583	OK	 
+REQUEST		get single user request	1646837343607	1646837343662	OK	 
+REQUEST		get single user request Redirect 1	1646837343663	1646837343717	OK	 
+REQUEST		add a user request	1646837345726	1646837345790	OK	 
+REQUEST		add a user request Redirect 1	1646837345790	1646837345837	OK	 
+REQUEST		add a user request Redirect 1	1646837345838	1646837346133	OK	 
+USER	user request scenario	END	1646837346136

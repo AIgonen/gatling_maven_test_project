@@ -1,0 +1,6 @@
+RUN	simulations.AddUserSimulation	addusersimulation	1646300593306	test add user	3.7.4
+USER	Add User Scenario	START	1646300594480
+REQUEST		add user request	1646300594514	1646300594660	OK	 
+REQUEST		add user request Redirect 1	1646300594711	1646300594907	OK	 
+REQUEST		get user request	1646300597936	1646300598052	KO	j.n.UnknownHostException: No such host is known (reqres.inapi)
+USER	Add User Scenario	END	1646300598064

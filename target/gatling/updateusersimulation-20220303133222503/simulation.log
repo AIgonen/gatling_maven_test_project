@@ -1,0 +1,5 @@
+RUN	simulations.UpdateUserSimulation	updateusersimulation	1646314342503	update test	3.7.4
+USER	Update User Scenario	START	1646314344085
+REQUEST		Update specific user	1646314344125	1646314344304	OK	 
+REQUEST		Update specific user Redirect 1	1646314344319	1646314344497	OK	 
+USER	Update User Scenario	END	1646314344533
